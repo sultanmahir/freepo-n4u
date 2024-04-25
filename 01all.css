@@ -149,7 +149,7 @@ body {
     vertical-align: baseline;
 }
 
-.videoplayer video {
+.videoplayer iframe {
     width: 70%;
     margin: 100px 0 0 2%;
     border: var(--bg-color) .1px solid;
