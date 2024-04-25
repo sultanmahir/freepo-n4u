@@ -325,6 +325,21 @@ span {
 /* Breakpoints */
 
 @media (max-width: 1310px) {
+
+    .videoplayer iframe {
+        width: 65%;
+        margin: 30px 10px -60px 10px;
+    }
+
+    .videoplayer .adsbox {
+        /* display: none; */
+        width: 10%;
+        border: solid .1px var(--main-color);
+        border-radius: 1rem;
+        margin-top: 100px;
+        padding: 0 270px 30px 30px;
+    }
+
     html {
         font-size: 55%;
     }
@@ -358,6 +373,21 @@ span {
 }
 
 @media (max-width: 1230px) {
+
+    .videoplayer iframe {
+        width: 65%;
+        margin: 30px 10px -70px 10px;
+    }
+
+    .videoplayer .adsbox {
+        /* display: none; */
+        width: 10%;
+        border: solid .1px var(--main-color);
+        border-radius: 1rem;
+        margin-top: 100px;
+        padding: 0 270px 30px 30px;
+    }
+
     .like1 {
         margin: 20px 0 -43px 810px;
         border: var(--bg-color) .1px solid;
@@ -387,6 +417,21 @@ span {
 }
 
 @media (max-width: 1160px) {
+
+    .videoplayer iframe {
+        width: 70%;
+        margin: 30px 10px -70px 10px;
+    }
+
+    .videoplayer .adsbox {
+        /* display: none; */
+        width: 10%;
+        border: solid .1px var(--main-color);
+        border-radius: 1rem;
+        margin-top: 100px;
+        padding: 0 270px 30px 30px;
+    }
+
     .like1 {
         margin: 20px 0 -43px 700px;
         border: var(--bg-color) .1px solid;
@@ -482,6 +527,21 @@ span {
 }
 
 @media (max-width: 1125px) {
+
+    .videoplayer iframe {
+        width: 70%;
+        margin: 30px 10px -70px 10px;
+    }
+
+    .videoplayer .adsbox {
+        /* display: none; */
+        width: 10%;
+        border: solid .1px var(--main-color);
+        border-radius: 1rem;
+        margin-top: 100px;
+        padding: 0 270px 30px 30px;
+    }
+
     .services {
         padding-bottom: 7rem;
     }
@@ -493,6 +553,22 @@ span {
 }
 
 @media (max-width: 1000px) {
+
+    .videoplayer iframe {
+        width: 70%;
+        margin: 15px 8px -90px 8px;
+    }
+
+
+    .videoplayer .adsbox {
+        /* display: none; */
+        width: 10%;
+        border: solid .1px var(--main-color);
+        border-radius: 1rem;
+        margin-top: 100px;
+        padding: 0 200px 30px 30px;
+    }
+
     .like1 {
         margin: 20px 0 -43px 540px;
         border: var(--bg-color) .1px solid;
@@ -527,12 +603,18 @@ span {
 
 @media (max-width: 800px) {
 
+    .videoplayer iframe {
+        width: 100%;
+        margin: 15px 8px -80px 8px;
+    }
+
     .videoplayer .adsbox {
-        width: 15%;
+        display: none;
+        /* width: 10%;
         border: solid .1px var(--main-color);
         border-radius: 1rem;
         margin-top: 100px;
-        padding: 0vh 30vh 40vh 20vh;
+        padding: 0 80px 30px 30px; */
     }
 
     .btn {
@@ -568,16 +650,18 @@ span {
 }
 
 @media (max-width:610px) {
-    .videoplayer video {
-        width: 70%;
+    .videoplayer iframe {
+        width: 100%;
+        margin: -45px 8px -130px 8px;
     }
 
     .videoplayer .adsbox {
-        width: 5%;
+        display: none;
+        /* width: 10%;
         border: solid .1px var(--main-color);
         border-radius: 1rem;
         margin-top: 100px;
-        padding: 0 120px 30px 30px;
+        padding: 0 80px 30px 30px; */
     }
 
     .like1 {
@@ -620,16 +704,18 @@ span {
 }
 
 @media (max-width:450px) {
-    .videoplayer video {
-        width: 70%;
+    .videoplayer iframe {
+        width: 100%;
+        margin: -90px 6px -170px 6px;
     }
 
     .videoplayer .adsbox {
-        width: 10%;
+        display: none;
+        /* width: 10%;
         border: solid .1px var(--main-color);
         border-radius: 1rem;
         margin-top: 100px;
-        padding: 0 80px 30px 30px;
+        padding: 0 80px 30px 30px; */
     }
 
     .like1 {
@@ -673,16 +759,18 @@ span {
 }
 
 @media (max-width:365px) {
-    .videoplayer video {
-        width: 70%;
+    .videoplayer iframe {
+        width: 100%;
+        margin: -100px 3px -180px 3px;
     }
 
     .videoplayer .adsbox {
-        width: 10%;
+        display: none;
+        /* width: 10%;
         border: solid .1px var(--main-color);
         border-radius: 1rem;
         margin-top: 100px;
-        padding:0 40px 22px 50px;
+        padding: 0 80px 30px 30px; */
     }
 
     .like1 {
